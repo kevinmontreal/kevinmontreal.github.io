@@ -5,6 +5,8 @@ New address on GitHub PAGE: [hansongwang.github.io](http://hansongwang.github.io
 
 ## Next Improvement
 
+[GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/)
+
 [Blogging with Jekyll](https://help.github.com/articles/using-jekyll-with-pages)
 Using Jekyll, you can blog using beautiful Markdown syntax, and without having to deal with any databases. Learn how to set up Jekyll.
 
