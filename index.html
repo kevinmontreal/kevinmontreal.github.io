@@ -8,11 +8,9 @@
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="author" content="Hansong Wang">
 		<title>Hansong Wang</title>
-		<link rel="stylesheet" href="/css/style.css" type="text/css">
 
 		<!-- Bootstrap -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
-
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -23,165 +21,22 @@
 	</head>
 
 <body>
+		<a href="/"><img src="/img/HWANG.jpg" alt="Hansong Wang" title="Hansong Wang" class="pull-left img-responsive img-circle"/></a>
 
-			<!-- <div class="jumbotron">						</div> -->
-				<a href="/"><img src="/img/HWANG.jpg" alt="Hansong Wang" title="Hansong Wang" class="pull-left img-responsive img-circle"/></a>
+		<h1 class="site-name"><a href="/" title="Hansong Wang"><span class="glyphicon glyphicon-home"></span> Hansong Wang</a></h1>
+		<h2 class="blog-motto">Where there is a will, there is a way! -- Pauline Kael </h2>
 
-			
-			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="Hansong Wang"><span class="glyphicon glyphicon-home"></span> Hansong Wang</a></h1>
-				<h2 class="blog-motto">Where there is a will, there is a way! -- Pauline Kael </h2>
-				<h1><span class="glyphicon glyphicon-road"></span> 自勉</h1>
-				Where there is a will, there is a way. Break the caldrons and sink the boats, Chu finally captured Qin. The god won't cheat the hard working people. Sleep on firewood and taste gall, by only three thousand soldiers, Yue annexed Wu.<p>
-						有志者，事竟成，破釜沉舟，百二秦关终属楚；苦心人，天不负，卧薪尝胆，三千越甲可吞吴。<p>
-						——蒲松龄撰</p>
-			</div>
+		有志者，事竟成，破釜沉舟，百二秦关终属楚；苦心人，天不负，卧薪尝胆，三千越甲可吞吴。<p>
+		——蒲松龄撰</p>
 
-<!-- 		<div id="container">
-			<div id="main">
-				
-				<section class="post" itemscope itemprop="blogitem">
-											
-						
-					
-						<p itemprop="description" >
-					
-				</section>
-			
-			</div>
-			<div class="openaside"><a class="navbutton" href="#" title="Open sidebar"></a></div>
-			
-			<div id="asidepart">
-				<div class="closeaside"><a class="closebutton" href="#" title="Hide sidebar"></a></div>
-				<aside class="clearfix">
-		
-					<div class="tagslist">
-						<p class="asidetitle">TAGS</p>
-						<ul class="clearfix">
-							
-							<li><a href="#" title="Android">Android<sup>2</sup></a></li>
-							
-						</ul>
-					</div>				
 
-					<div class="linkslist">
-						<p class="asidetitle">Links</p>
-						<ul>
-							
-							<li>
-								
-								<a href="http://www.hansongwang.com" target="_blank" title="Hansong's Website">hansongwang.com</a>
-								
-							</li>
-							
-						</ul>
-					</div>			
-
-				</aside>
-			</div>
-		</div> -->
-		<!-- <footer><div id="footer" >
-			
-			<div class="line">
-				<span></span>
-				<div class="author"></div>
-			</div>
-
-			<div class="social-font" class="clearfix">
-
-				<a href="https://github.com/hansongwang" target="_blank" class="icon-github" title="github"></a>
-		
-			</div>
-			<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> <span class="glyphicon glyphicon-copyright-mark"> 2016 <a href="/about" target="_blank" title="Hansong Wang">Hansong Wang</a> </span>
-				
-			</p>
-			</div>
-		</footer>
-			
-		<script src="/js/jquery-2.0.3.min.js"></script>
-		<script src="/js/jquery.imagesloaded.min.js"></script>
-		<script src="/js/gallery.js"></script>
-	
-		
-		<script type="text/javascript">
-			$(document).ready(function(){ 
-				$('.navbar').click(function(){
-					$('header nav').toggleClass('shownav');
-				});
-				var myWidth = 0;
-				function getSize(){
-					if( typeof( window.innerWidth ) == 'number' ) {
-						myWidth = window.innerWidth;
-					} else if( document.documentElement && document.documentElement.clientWidth) {
-						myWidth = document.documentElement.clientWidth;
-					};
-				};
-				var m = $('#main'),
-				a = $('#asidepart'),
-				c = $('.closeaside'),
-				o = $('.openaside');
-				$(window).resize(function(){
-					getSize(); 
-					if (myWidth >= 1024) {
-						$('header nav').removeClass('shownav');
-					}else
-					{
-						m.removeClass('moveMain');
-						a.css('display', 'block').removeClass('fadeOut');
-						o.css('display', 'none');
-						
-					}
-				});
-				c.click(function(){
-					a.addClass('fadeOut').css('display', 'none');
-					o.css('display', 'block').addClass('fadeIn');
-					m.addClass('moveMain');
-				});
-				o.click(function(){
-					o.css('display', 'none').removeClass('beforeFadeIn');
-					a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
-					m.removeClass('moveMain');
-				});
-				$(window).scroll(function(){
-					o.css("top",Math.max(80,260-$(this).scrollTop()));
-				});
-			});
-		</script>
-		
-		<script type="text/javascript">
-			var duoshuoQuery = {short_name:"Hansong"};
-			(function() {
-				var ds = document.createElement('script');
-				ds.type = 'text/javascript';ds.async = true;
-				ds.src = '//static.duoshuo.com/embed.js';
-				ds.charset = 'UTF-8';
-				(document.getElementsByTagName('head')[0] 
-				|| document.getElementsByTagName('body')[0]).appendChild(ds);
-			})();
-		</script>  -->
-
-		<!-- <a href="https://github.com/hansongwang" target="_blank" class="icon-github" title="github"></a> -->
-		
-			<span class="glyphicon glyphicon-copyright-mark"> 2016 <a href="/about" target="_blank" title="Hansong Wang">Hansong Wang</a> </span>
+		<span class="glyphicon glyphicon-copyright-mark"> 2016 <a href="/about" target="_blank" title="Hansong Wang">Hansong Wang</a> </span>
 	
 		<!-- Analytics Begin -->
-
-		
 		<!-- Analytics End -->
 		
-		<!-- Totop Begin -->
-		
-		<div id="totop">
-			<a title="To Top"><img src="/img/scrollup.png"/></a>
-		</div>
-		<script src="/js/totop.js"></script>
-		
-		<!-- Totop End -->
-		
 		<!-- MathJax Begin -->
-		<!-- mathjax config similar to math.stackexchange -->
-		
-		
+		<!-- mathjax config similar to math.stackexchange -->				
 		<!-- MathJax End -->
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -190,5 +45,4 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
