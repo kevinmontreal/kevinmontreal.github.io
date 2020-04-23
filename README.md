@@ -1,8 +1,5 @@
-# Move personal site to Github Page 
+# doublev.github.io
 
-New address on GitHub PAGE: [hansongwang.github.io](http://hansongwang.github.io)
+- Viist us on: [doublev-dev.github.io](http://doublev-dev.github.io)
 
-
-## Reference:
-
-https://pages.github.com/
+- Or: [doublev.dev](http://doublev.dev)
